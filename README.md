@@ -6,7 +6,7 @@ O projeto foi iniciado em 03 de março de 2023 e vai seguir em atualizações at
 
 ## LISTA DE OBJETIVOS
 
-- [ ] Adicionar conteúdos na página inicial;
+- [x] Adicionar conteúdos na página inicial;
 - [ ] Adicionar conteúdos na página de galeria;
 - [ ] Coletar informações para a página de integrantes.
 
