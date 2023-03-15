@@ -3,10 +3,12 @@
     font-size: 20 px;
 }
 
-body {margin:0px; font-size: 19px;} 
-			p, h1, h2, h3 {
+body {
+    margin:0px;
+}
+			
+p, h1, h2, h3 {
 			text-align: justify;
 			line-height:2;
-			font-family:'Popins', Times, serif;
 			padding: 0px 120px 20px 120px;
-			}
+            }
