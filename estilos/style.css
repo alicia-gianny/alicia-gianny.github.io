@@ -1,6 +1,7 @@
 * {
     font-family: Popins, 'Times New Roman', Times, serif;
     font-size: 20 px;
+    padding: 0px 120px 20px 120px;
 }
 
 body {
@@ -10,5 +11,4 @@ body {
 p, h1, h2, h3 {
 			text-align: justify;
 			line-height:2;
-			padding: 0px 120px 20px 120px;
             }
