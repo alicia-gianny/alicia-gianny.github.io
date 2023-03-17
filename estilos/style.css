@@ -9,5 +9,23 @@ body {
 			
 p, h1, h2, h3 {
 			text-align: justify;
-            padding: 0px 150px 20px 150px;
+            padding: 0px 280px 20px 280px;
+}
+
+a {
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 5px 3px 10px  grey;
 }
