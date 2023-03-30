@@ -7,7 +7,7 @@ body {
     margin: 0px;
 }
 			
-p, h1, h2, h3 {
+p, h1, h2, h3, ol, li {
 			text-align: justify;
             padding: 0px 280px 20px 280px;
 }
