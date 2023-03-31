@@ -19,8 +19,8 @@ h4{
     border-width: 5px;
     border-style: solid;
     border-color: black;
-    padding: 0px 280px 20px 280px;
-    margin: 20px;
+    padding: 20px;
+    margin: 0px 280px 20px 280px;
     box-shadow: 5px 3px 10px  grey;
 
 }
