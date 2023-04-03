@@ -1,15 +1,15 @@
 * {
     font-family: Popins, 'Times New Roman', Times, serif;
-    font-size: 20 px;
+    font-size: 30 px;
 }
 
 body {
     margin: 0px;
+    background-color: aliceblue;
 }
 			
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
 			text-align: justify;
-            padding: 0px 280px 20px 280px;
 }
 
 a {
@@ -28,4 +28,18 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
     box-shadow: 5px 3px 10px  grey;
+}
+
+img{
+    border-radius: 18px;
+    border: 10px;
+    margin-right: 20px;
+}
+
+div{
+    contain: layout;
+    margin-left: 280px;
+    margin-right: 280px;
+    border-radius: 20px;
+    padding: 15px;
 }
