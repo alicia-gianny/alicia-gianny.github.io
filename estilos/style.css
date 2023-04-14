@@ -12,17 +12,6 @@ p, h1, h2, h3, h4 {
 			text-align: justify;
 }
 
-h4{
-    width: 320px;
-    height: 60px;
-    background-color:aliceblue;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
-    padding: 10px;
-    margin: 20px;
-
-}
 a {
     font-style: normal;
     color: black;
