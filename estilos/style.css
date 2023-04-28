@@ -42,3 +42,144 @@ nav {
     padding-bottom: 5px;
     box-shadow: 5px 3px 10px  grey;
 }
+<<<<<<< Updated upstream
+=======
+
+nav#menu {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: black;
+}
+
+nav#menu ul li a {
+    border: 0cap;
+    display: block;
+    width:max-content;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-collapse: collapse;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+nav#menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#menu ul li a:hover {
+    display: inline-block;
+    color: darkgrey;
+}
+
+.active-index {
+    background-color:rgba(233, 41, 41, 0.952);
+    color: white;
+}
+
+.active-integrantes {
+    background-color:rgba(247, 192, 13, 0.863);
+    color: white;
+}
+
+.active-sobre {
+    background-color: rgb(8, 8, 139);
+}
+
+.active-contato {
+    background-color: rgb(29, 139, 29);
+}
+
+.active-galeria {
+    background-color: rgb(63, 62, 62);
+}
+
+.container {
+    display: grid;
+    height: max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "link1 link2 link3 link4";
+    grid-gap: 0.2rem;
+}
+
+.container > div > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container > div {
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 6px 12px -2px, 
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+#link1 {
+    grid-area: link1;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#link2 {
+    grid-area: link2;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link3 {
+    grid-area: link3;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link4 { 
+    grid-area: link4;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer > a {
+    color: white;
+}
+>>>>>>> Stashed changes
