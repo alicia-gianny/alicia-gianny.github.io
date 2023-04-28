@@ -15,30 +15,31 @@
 			<!--Faixa da página inicial do grupo-->
 			<!--Tabela com os links (INICIO-INTEGRANTES-SOBRE-CONTATO)-->
 		<header>
-			<center><img src ="image/faixa-pag-entropia.png"></center>
+			<picture>
+				<source media="(max-width: 900px)" srcset="image/faixa-pag-entropia-700.png" type="image/png">
+				<source media="(max-width: 1400px)" srcset="image/faixa-pag-entropia-1000.png" type="image/png">
+				<img src ="image/faixa-pag-entropia.png">
+			</picture>
+			
 		</header>
 		
-		<nav style = "background-color: rgba(233, 41, 41, 0.952);" >
-			<center>
-			<table>
-				<tr>
-					<th><a href = index.html>INÍCIO</a></th>
-					<th><a href = pagina-integrantes.html>INTEGRANTES</a></th>
-					<th><a href = pagina-sobre.html>SOBRE</a></th>
-					<th><a href = pagina-contato.html>CONTATO</a></th>
-					<th><a href = pagina-galeria.html>GALERIA</a></th>
-				</tr>
-			</table>
-			</center>
-		</nav>
+			<nav id = "menu"> <!-- GRID: BARRA DE NAVEGAÇÃO -->
+            <ul>
+                <li><a class="active-index" href="index.html">INÍCIO</a></li>
+                <li><a href="pagina-integrantes.html">INTEGRANTES</a></li>
+                <li><a href="pagina-sobre.html">SOBRE</a></li>
+                <li><a href="pagina-contato.html">CONTATO</a></li>
+				<li><a href="pagina-galeria.html">GALERIA</a></li>
+            </ul>
+        </nav> <!-- FIM DA BARRA DE NAVEGAÇÃO -->
 		<!--Fim da tabela-->
 		<div>
 		<main>
-			<h1 style="font-size: 40px;">SEJAM BEM-VINDOS AO BLOG DO  GRUPO ENTROPIA!</h1>
+			<h1>SEJAM BEM-VINDOS AO BLOG DO  GRUPO ENTROPIA!</h1>
 
 			<p>Aqui você poderá conhecer mais sobre o nosso trabalho e sobre os integrantes do nosso grupo, além de ter acesso a galeria de fotos e babados que quase ninguém sabe. Por isso, não deixe de dar uma espiada e ficar por dentro do que acontece nos bastidores desse grupinho estourado.</p>
 	
-			<h2 style="padding: 15px; background-color: rgba(233, 41, 41, 0.952); border-radius: 5px;">POR QUE ESTE BLOG FOI CRIADO?</h2>
+			<h3 style="padding: 15px; background-color: rgba(233, 41, 41, 0.952); border-radius: 5px; color: white;">POR QUE ESTE BLOG FOI CRIADO?</h2>
 			
 			<p style="padding: 15px; border-radius: 5px; box-shadow: 0px 0px 5px  grey;">Este foi criado por uma das integrantes do grupo para um trabalho do curso.<br>
 			<i>Para um trabalho do curso?</i> - você se pergunta.<br>
@@ -47,7 +48,29 @@
 		</main>
 		</div>
 
-		<div><h2>Em construção...</h2></div>
+		<h2>Navegue um pouco mais conosco:</h2>
+
+		<div class="container">
+
+			<div id="link1">
+				<a href="pagina-integrantes.html">Conheça os nossos integrantes!</a>
+			</div>
+	
+			<div id="link2">
+				<a href="pagina-sobre.html">Saiba mais sobre a nossa história!</a>
+			</div>
+	
+			<div id="link3">
+				<a href="pagina-contato.html">Saiba como entrar em contato conosco!</a>
+			</div>
+	
+			<div id="link4">
+				<a href="pagina-galeria.html">Acesse a nossa galeria!</a>
+			</div>
+
+		</div>
+
+		
 
 	</body>
 

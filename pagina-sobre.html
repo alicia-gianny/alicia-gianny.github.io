@@ -14,24 +14,23 @@
 	<body>
 
 		<header>
-			<!--Faixa da página inicial do grupo-->
-			<center><img src = "image/faixa-pag-entropia-sobre.png"></center>
+			<picture>
+				<source media="(max-width: 900px)" srcset="image/faixa-pag-entropia-sobre-700.png" type="image/png">
+				<source media="(max-width: 1400px)" srcset="image/faixa-pag-entropia-sobre-1000.png" type="image/png">
+				<img src ="image/faixa-pag-entropia-sobre.png">
+			</picture>
+			
 		</header>
 
-		<nav style = "background-color: rgba(71, 71, 158, 0.514)">
-			<!--Tabela com os links (INICIO-INTEGRANTES-SOBRE-CONTATO)-->
-			<center>
-			<table>
-				<tr>
-					<th><a href = index.html>INÍCIO</a></th>
-					<th><a href = pagina-integrantes.html>INTEGRANTES</a></th>
-					<th><a href = pagina-sobre.html>SOBRE</a></th>
-					<th><a href = pagina-contato.html>CONTATO</a></th>
-					<th><a href = pagina-galeria.html>GALERIA</a></th>
-				</tr>
-			</table>
-			</center>
-		</nav>
+		<nav id = "menu"> <!-- GRID: BARRA DE NAVEGAÇÃO -->
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="pagina-integrantes.html">INTEGRANTES</a></li>
+                <li><a class="active-sobre" href="pagina-sobre.html">SOBRE</a></li>
+                <li><a href="pagina-contato.html">CONTATO</a></li>
+				<li><a href="pagina-galeria.html">GALERIA</a></li>
+            </ul>
+        </nav> <!-- FIM DA BARRA DE NAVEGAÇÃO -->
 
 		<div>
 			<h2>Em construção...</h2>
