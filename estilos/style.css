@@ -11,10 +11,32 @@ picture{
     align-items: center;
 }
 
+table{
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+th{
+    color: aliceblue;
+    background-color: rgb(8, 8, 139);
+}
+
+tr, th, td{
+    padding: 5px;
+}
+
+
 #foto {
     height: 400px;
     justify-content: center;
     align-items: center;
+}
+
+#sobre{
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 5px  blue;
+    margin: 20px;
 }
 
 body {
@@ -34,7 +56,21 @@ header {
     background-color: black;
 }
 
-div{
+iframe{
+    width: 50vw;
+    height: 23.3vw;
+    max-height: 100vh;
+    max-width: 177.78vh;
+    top: 120px;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
     contain: layout;
     margin-left: 14%;
     margin-right: 14%;
@@ -72,7 +108,6 @@ nav#menu ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    align-items: center;
 }
 
 nav#menu ul li {
@@ -109,23 +144,27 @@ nav#menu ul li {
 
 .container {
     display: grid;
-    height: grid;
-    grid-template-columns: 0.4fr;
-    grid-template-rows: auto;
+    width: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto;
     grid-template-areas: 
-    "link1"
-    "link2"
-    "link3"
-    "link4";
-    grid-gap: 0.2rem;
-    align-items: center;
-    text-align: center;
+    "link1 image"
+    "link2 image"
+    "link3 image"
+    "link4 image";
 }
 
-.container > div > a {
-    max-height: fit-content;
-    width: max-content;
+.container div a {
+
+    border: 0cap;
     display: block;
+    width:max-content;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: white;
@@ -133,23 +172,26 @@ nav#menu ul li {
 }
 
 .container div a:hover{
-    background-color: rgba(233, 41, 41, 0.952);
+    background-color: rgba(209, 201, 201, 0.24);
 }
 
 .container > div {
-    display:block;
-    margin:0px;
+    display:grid;
+    background-color: rgba(209, 201, 201, 0.452);
+    margin: 4px;
     border-radius: 8px;
-    box-shadow: rgba(50, 50, 93, 0.25) 
-    0px 6px 12px -2px, 
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
+#image {
+    grid-area: image;
+    display: flex;
+    height: 300px;
+    margin-left: 20%;
+}
 
 #link1 {
     grid-area: link1;
     background-color:black;
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -158,7 +200,6 @@ nav#menu ul li {
 #link2 {
     grid-area: link2;
     background-color:black;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -166,7 +207,6 @@ nav#menu ul li {
 #link3 {
     grid-area: link3;
     background-color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -174,7 +214,6 @@ nav#menu ul li {
 #link4 { 
     grid-area: link4;
     background-color:black;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
