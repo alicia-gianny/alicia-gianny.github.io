@@ -22,7 +22,7 @@ body {
     background-color: aliceblue;
 }
 			
-h1, h2 , h3 {
+h1 {
     text-align: center;
 }
 
@@ -69,7 +69,6 @@ nav#menu ul li a {
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-collapse: collapse;
     color: white;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -110,24 +109,36 @@ nav#menu ul li {
 
 .container {
     display: grid;
-    height: max-content;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: grid;
+    grid-template-columns: 0.4fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "link1 link2 link3 link4";
+    "link1"
+    "link2"
+    "link3"
+    "link4";
     grid-gap: 0.2rem;
+    align-items: center;
+    text-align: center;
 }
 
 .container > div > a {
+    max-height: fit-content;
+    width: max-content;
     display: block;
-    padding: 10px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
 }
 
+.container div a:hover{
+    background-color: rgba(233, 41, 41, 0.952);
+}
+
 .container > div {
+    display:block;
+    margin:0px;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 
     0px 6px 12px -2px, 
@@ -178,5 +189,5 @@ footer{
 }
 
 footer > a {
-    color: white;
+    color: rgb(172, 168, 168);
 }
